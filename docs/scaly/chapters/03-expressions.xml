@@ -6,7 +6,7 @@
     <para>
       Expressions are the core computational units of Scaly. Every expression
       evaluates to a value. Unlike many languages, Scaly uses postfix operators
-      and does not define operator precedence -- evaluation order is always
+      and does not define operator precedence — evaluation order is always
       explicit.
     </para>
     <note>

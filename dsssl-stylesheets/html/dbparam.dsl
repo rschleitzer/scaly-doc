@@ -1149,7 +1149,7 @@
   ;; /REFENTRY
   ".htm")
 
-(define %html-header-tags% 
+(define %html-header-tags%
   ;; REFENTRY html-header-tags
   ;; PURP What additional HEAD tags should be generated?
   ;; DESC
@@ -1160,7 +1160,7 @@
   ;; /DESC
   ;; AUTHOR N/A
   ;; /REFENTRY
-  '())
+  '(("META" ("HTTP-EQUIV" "Content-Type") ("CONTENT" "text/html; charset=UTF-8"))))
 
 (define %html-pubid%
   ;; REFENTRY html-pubid
