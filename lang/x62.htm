@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML
+><HEAD
+><TITLE
+>Literals</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.79"><LINK
+REL="HOME"
+TITLE="The Scaly Programming Language"
+HREF="book1.htm"><LINK
+REL="UP"
+TITLE="Lexical Structure"
+HREF="c38.htm"><LINK
+REL="PREVIOUS"
+TITLE="Comments"
+HREF="x48.htm"><LINK
+REL="NEXT"
+TITLE="Identifiers"
+HREF="x88.htm"></HEAD
+><BODY
+CLASS="section"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>The Scaly Programming Language</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="x48.htm"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+>Chapter 2 Lexical Structure</TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="x88.htm"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="section"
+><H1
+CLASS="section"
+><A
+NAME="AEN62"
+>Literals</A
+></H1
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN64"
+>Integer Literals</A
+></H2
+><P
+>&#13;        Integer literals represent whole numbers. They can be written in
+        decimal, hexadecimal, or binary notation.
+      </P
+><PRE
+CLASS="programlisting"
+>&#13;42        ; decimal
+0x2A      ; hexadecimal (same value)
+0b101010  ; binary (same value)
+      </PRE
+><P
+>&#13;        Underscores can be used as visual separators in numeric literals:
+      </P
+><PRE
+CLASS="programlisting"
+>&#13;1_000_000     ; one million
+0xFF_FF_FF    ; white color in RGB
+      </PRE
+></DIV
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN70"
+>Floating-Point Literals</A
+></H2
+><P
+>&#13;        Floating-point literals represent decimal numbers with a fractional
+        part or an exponent.
+      </P
+><PRE
+CLASS="programlisting"
+>&#13;3.14159       ; pi
+2.5e10        ; scientific notation
+1.0e-5        ; small number
+      </PRE
+></DIV
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN74"
+>String Literals</A
+></H2
+><P
+>&#13;        String literals are enclosed in double quotes. They support standard
+        escape sequences.
+      </P
+><PRE
+CLASS="programlisting"
+>&#13;"Hello, World!"
+"Line 1\nLine 2"      ; with newline
+"Tab:\tValue"         ; with tab
+"Quote: \"nested\""   ; escaped quotes
+      </PRE
+></DIV
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN78"
+>Character Literals</A
+></H2
+><P
+>&#13;        Character literals represent single Unicode code points, enclosed
+        in backticks.
+      </P
+><PRE
+CLASS="programlisting"
+>&#13;`a`           ; lowercase a
+`\n`          ; newline character
+`\u{1F600}`   ; emoji (grinning face)
+      </PRE
+></DIV
+><DIV
+CLASS="section"
+><H2
+CLASS="section"
+><A
+NAME="AEN82"
+>Boolean Literals</A
+></H2
+><P
+>&#13;        Boolean literals are <TT
+CLASS="literal"
+>true</TT
+> and <TT
+CLASS="literal"
+>false</TT
+>.
+      </P
+><PRE
+CLASS="programlisting"
+>&#13;true
+false
+      </PRE
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="x48.htm"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="book1.htm"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="x88.htm"
+ACCESSKEY="N"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Comments</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="c38.htm"
+ACCESSKEY="U"
+>Up</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Identifiers</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "docbook.dtd" [
+  <!ENTITY introduction SYSTEM "docs/scaly/chapters/01-introduction.xml">
+  <!ENTITY lexical SYSTEM "docs/scaly/chapters/02-lexical.xml">
+  <!ENTITY expressions SYSTEM "docs/scaly/chapters/03-expressions.xml">
+]>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0">
+  <title>The Scaly Programming Language</title>
+
+  &introduction;
+  &lexical;
+  &expressions;
+
+</book>
