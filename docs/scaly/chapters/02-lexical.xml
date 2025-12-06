@@ -15,7 +15,7 @@
     <para>
       Whitespace characters (space, tab) separate tokens but are otherwise
       insignificant. Line breaks, however, are syntactically meaningful in
-      Scaly — they can terminate statements and declarations.
+      Scaly -- they can terminate statements and declarations.
     </para>
     <para>
       A colon (<literal>:</literal>) can be used in place of a line break
